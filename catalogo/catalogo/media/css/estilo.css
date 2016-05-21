@@ -1,0 +1,103 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: #6BB3F7;
+	text-align: center;
+}
+#titulo{
+	box-shadow: 5px 5px 10px #F93415;
+	border-radius: 11px 11px 11px 11px;
+	border: 2px solid #151617;
+	background-color:  #FD202B;
+	text-align: center;
+	padding: 10px;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: fantasy;
+}
+#menu{
+	box-shadow: 5px 5px 10px #F93415;
+	border-radius: 11px 11px 11px 11px;
+	background: #7E90A1;
+	padding: 9px;
+	border: 2px solid #151617;
+	width: 900px;
+	height: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: fantasy;
+}
+#menu ul li a:hover{
+	box-shadow: 5px 5px 10px #F93415;
+	border-radius: 11px 11px 11px 11px;
+	background-color: #5538FD;
+	color: red; 
+	padding: 7px;
+}
+#menu li{
+	box-shadow: 5px 5px 10px #F93415;
+	border-radius: 11px 11px 11px 11px;
+	display: inline-block;
+	list-style: none;
+	padding: 5px;
+	border: 1px solid #0A090A;
+}
+li{
+	display: inline-block;
+	list-style: none;
+}
+#seccion{
+	box-shadow: 5px 5px 10px #F93415;
+	border-radius: 11px 11px 11px 11px;
+	width: 920px;
+	height: 500px;
+	border: 2px solid  #151617;
+	margin-right: auto;
+	margin-left: auto;
+}
+#pr{
+	font-family: fantasy;
+	text-align: left;
+	padding: 35px;
+}
+#kr{
+	font-family: fantasy;
+}
+
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    cursor: auto;
+    padding: 4px;
+    border: 2px solid #0E0D0D;
+    font-family: fantasy;
+}
+textarea {
+    font-family: monospace;
+    border-color: rgb(169, 169, 169);
+    border: 2px solid #0E0D0D;
+}
+label {
+    cursor: default;
+    font-family: fantasy;
+}
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+     font-family: fantasy;
+}

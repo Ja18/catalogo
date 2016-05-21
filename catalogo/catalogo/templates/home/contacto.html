@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{%block title %}
+	Contactanos
+{% endblock %}	
+
+{% block content %}
+	{% if info_enviado %}
+		<div id ="pr">
+		<h2>Gracias por enviar un comentario, nos podremos en contacto</h2>
+		<br>
+		<h3>La información enviada fue la siguiente: </h3>
+		<p> Email usado: {{ email }} </p>
+		<p> Titulo usado: {{ title }} </p>
+		<p> Texto usado: </p> <br> {{ text }}
+	</div>
+	{% else %}
+
+		<form id = "tabla" action="." method = "POST">
+			{% csrf_token %}
+			{{ form.as_p }}
+			<input class="btn btn-success" type = "submit" value = "Enviar" id= "Enviar"/>
+		</form>	
+	{% endif %}
+{% endblock %}	
